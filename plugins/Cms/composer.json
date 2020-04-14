@@ -1,0 +1,23 @@
+{
+    "name": "your-name-here/Cms",
+    "description": "Cms plugin for CakePHP",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+    "require": {
+        "cakephp/cakephp": "^4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cms\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cms\\Test\\": "tests/",
+            "Cake\\Test\\": "vendor/cakephp/cakephp/tests/"
+        }
+    }
+}
